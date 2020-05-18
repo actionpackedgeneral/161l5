@@ -128,7 +128,6 @@ mux_2_1 #(.WORD_SIZE(8)) pc_mux(
 	);
 assign instr_op = instr_instruction[31:26];
 assign funct = instr_instruction[5:0];
-assign pc_mux_out = instr_read_address;
 
 
 initial begin
