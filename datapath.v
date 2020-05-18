@@ -105,7 +105,7 @@ mux_2_1 #(.WORD_SIZE(32)) alu_mux(
 // time for the alu
 //module alu( alu_control_in,  channel_a_in , channel_b_in , zero_out , alu_result_out  );
 
-wire [`WORD_SIZE -1 : 0] alu_result_out;
+// wire [`WORD_SIZE -1 : 0] alu_result_out;
 alu alu(
 	.alu_control_in(alu_op),
 	.channel_a_in(read_data_1),
